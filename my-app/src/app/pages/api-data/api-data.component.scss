@@ -1,0 +1,45 @@
+.api-data-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 32px;
+      color: #AB81D6;
+      font-size: 2rem;
+    }
+  
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+  
+    .post-card {
+      background-color: #E4C0F7;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      h3 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+        color: #4b227c;
+      }
+  
+      p {
+        margin: 0;
+        color: #333;
+        font-size: 0.95rem;
+        line-height: 1.4;
+      }
+    }
+  }
+  
